@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
 const open = require('open');
-
+config.port = 666;
 /**
  * Flag indicating whether webpack compiled for the first time.
  * @type {boolean}

@@ -147,8 +147,8 @@ class AppComponent extends React.Component {
     var halfStageH = Math.ceil(stageH / 2);
     //获取展示大小
     var imgFigureDOM = this.refs.imgFigure0.imgFigureDOM;
-    console.log(this.refs.imgFigure0);
-    console.log(this.refs.imgFigure0.imgFigureDOM);
+    // console.log(this.refs.imgFigure0);
+    // console.log(this.refs.imgFigure0.imgFigureDOM);
     var imgW = imgFigureDOM.scrollWidth;
     var imgH = imgFigureDOM.scrollHeight;
     var halfImgW = Math.ceil(imgW / 2);
@@ -176,7 +176,7 @@ class AppComponent extends React.Component {
     
     this.Constant.vPosRange.x[0] = halfStageW-imgW;
     this.Constant.vPosRange.x[1] = halfStageW;
-    var rea = this;
+    // var rea = this;
     this.rearrange(0);
 /*  var rea = this;
     console.log(this.refs);
